@@ -1380,23 +1380,15 @@
     <div class="toast" id="toast"></div>
 
     <script>
-        // ========================================
-        // STRIPE CONFIG — Replace with your keys
-        // ========================================
-        // 1. Go to https://dashboard.stripe.com/apikeys
-        // 2. Copy your Publishable Key (starts with pk_live_ or pk_test_)
-        // 3. Paste it below:
-        const STRIPE_PUBLISHABLE_KEY = 'pk_test_YOUR_PUBLISHABLE_KEY_HERE';
+        // STRIPE CONFIG — DOGSTYLE By Alba (REDXAM INC)
+        const STRIPE_PUBLISHABLE_KEY = 'pk_live_51K9GZ3FKvFwQkuFSfoAR8c2MjkTEWpmJC9g8VBp3aeJvZ7QFccXRQMxRO6cFQUPvlAZT5XAYwCrBuIo3PnkgIVNG007AvjYrrr';
 
-        // 4. Create products & prices in Stripe Dashboard:
-        //    https://dashboard.stripe.com/products
-        //    Then paste each Price ID below (starts with price_)
         const STRIPE_PRICE_IDS = {
-            shampoo:       'price_REPLACE_WITH_SHAMPOO_PRICE_ID',
-            treats:        'price_REPLACE_WITH_TREATS_PRICE_ID',
-            mediterranean: 'price_REPLACE_WITH_MEDITERRANEAN_PRICE_ID',
-            brush:         'price_REPLACE_WITH_BRUSH_PRICE_ID',
-            bed:           'price_REPLACE_WITH_BED_PRICE_ID',
+            shampoo:       'price_1TlusDFKvFwQkuFSWIpAls5O',
+            treats:        'price_1TlusYFKvFwQkuFS6jcuwuEk',
+            mediterranean: 'price_1TlusaFKvFwQkuFSzgbVh8a2',
+            brush:         'price_1TluscFKvFwQkuFSU93vua1j',
+            bed:           'price_1TlusdFKvFwQkuFSFq6VLNUM',
         };
 
         // Set the statement descriptor in Stripe Dashboard → Settings → Public details
