@@ -1,9 +1,10 @@
 {
   "name": "dogstyle-by-alba",
   "version": "1.0.0",
-  "description": "",
+  "description": "One-page website and shop for the DOGSTYLE By Alba dog grooming salon",
   "main": "index.js",
   "scripts": {
+    "start": "python3 -m http.server 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
